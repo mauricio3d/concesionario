@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.3" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JInternalFrameFormInfo">
+  <Properties>
+    <Property name="title" type="java.lang.String" value="INGRESO"/>
+  </Properties>
+  <SyntheticProperties>
+    <SyntheticProperty name="formSizePolicy" type="int" value="1"/>
+  </SyntheticProperties>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" attributes="0">
+              <EmptySpace pref="18" max="32767" attributes="0"/>
+              <Group type="103" groupAlignment="1" attributes="0">
+                  <Component id="jLabel1" min="-2" max="-2" attributes="0"/>
+                  <Group type="102" attributes="0">
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="LBLTIPOID" alignment="0" min="-2" max="-2" attributes="0"/>
+                          <Component id="LBLID" alignment="0" min="-2" max="-2" attributes="0"/>
+                          <Group type="103" alignment="0" groupAlignment="1" max="-2" attributes="0">
+                              <Component id="LBLTELEFONO" alignment="0" max="32767" attributes="0"/>
+                              <Component id="LBLDIRECCION" alignment="0" max="32767" attributes="0"/>
+                              <Component id="LBLAPELLIDO" alignment="0" max="32767" attributes="0"/>
+                              <Component id="LBLNOMBRE" alignment="0" max="32767" attributes="0"/>
+                              <Component id="LBLPERSONERIA" alignment="0" max="32767" attributes="0"/>
+                          </Group>
+                          <Component id="BTNGRABAR" min="-2" pref="89" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace min="-2" pref="121" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                          <Component id="CMBPERSONERIA" min="-2" max="-2" attributes="0"/>
+                          <Component id="CMBTIPOID" min="-2" max="-2" attributes="0"/>
+                          <Component id="TXTID" alignment="0" min="-2" pref="134" max="-2" attributes="0"/>
+                          <Component id="TXTTELEFONO" alignment="0" min="-2" pref="132" max="-2" attributes="0"/>
+                          <Component id="TXTNOMBRE" pref="200" max="32767" attributes="0"/>
+                          <Component id="TXTAPELLIDO" alignment="0" max="32767" attributes="0"/>
+                          <Component id="TXTDIRECCION" alignment="0" min="-2" pref="163" max="-2" attributes="0"/>
+                          <Component id="BTNSALIR" alignment="0" min="-2" pref="84" max="-2" attributes="0"/>
+                      </Group>
+                  </Group>
+              </Group>
+              <EmptySpace pref="19" max="32767" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="0" attributes="0">
+              <EmptySpace min="-2" pref="20" max="-2" attributes="0"/>
+              <Component id="jLabel1" min="-2" max="-2" attributes="0"/>
+              <EmptySpace type="separate" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="CMBTIPOID" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="LBLTIPOID" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="LBLID" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="TXTID" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="CMBPERSONERIA" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="LBLPERSONERIA" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                  <Component id="TXTNOMBRE" max="32767" attributes="0"/>
+                  <Component id="LBLNOMBRE" max="32767" attributes="0"/>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="TXTAPELLIDO" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="LBLAPELLIDO" alignment="3" min="-2" pref="20" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="TXTDIRECCION" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="LBLDIRECCION" alignment="3" min="-2" pref="20" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="TXTTELEFONO" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="LBLTELEFONO" alignment="3" min="-2" pref="20" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace min="-2" pref="31" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                  <Component id="BTNSALIR" pref="33" max="32767" attributes="0"/>
+                  <Component id="BTNGRABAR" max="32767" attributes="0"/>
+              </Group>
+              <EmptySpace pref="30" max="32767" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Component class="javax.swing.JComboBox" name="CMBTIPOID">
+      <Properties>
+        <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+          <StringArray count="4">
+            <StringItem index="0" value="Item 1"/>
+            <StringItem index="1" value="Item 2"/>
+            <StringItem index="2" value="Item 3"/>
+            <StringItem index="3" value="Item 4"/>
+          </StringArray>
+        </Property>
+      </Properties>
+      <AuxValues>
+        <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;String&gt;"/>
+      </AuxValues>
+    </Component>
+    <Component class="javax.swing.JLabel" name="LBLTIPOID">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="TIPO DE IDENTIFICACION"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="LBLID">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="IDENTIFICACION"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="TXTID">
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="TXTIDActionPerformed"/>
+        <EventHandler event="keyTyped" listener="java.awt.event.KeyListener" parameters="java.awt.event.KeyEvent" handler="TXTIDKeyTyped"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JComboBox" name="CMBPERSONERIA">
+      <Properties>
+        <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+          <StringArray count="4">
+            <StringItem index="0" value="Item 1"/>
+            <StringItem index="1" value="Item 2"/>
+            <StringItem index="2" value="Item 3"/>
+            <StringItem index="3" value="Item 4"/>
+          </StringArray>
+        </Property>
+      </Properties>
+      <AuxValues>
+        <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;String&gt;"/>
+      </AuxValues>
+    </Component>
+    <Component class="javax.swing.JLabel" name="LBLPERSONERIA">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="TIPO DE PERSONERIA"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="LBLNOMBRE">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="NOMBRES"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="LBLAPELLIDO">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="APELLIDOS"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="LBLDIRECCION">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="DIRECCION"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="LBLTELEFONO">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="TELEFONO"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="TXTNOMBRE">
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="TXTNOMBREActionPerformed"/>
+        <EventHandler event="keyTyped" listener="java.awt.event.KeyListener" parameters="java.awt.event.KeyEvent" handler="TXTNOMBREKeyTyped"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JTextField" name="TXTAPELLIDO">
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="TXTAPELLIDOActionPerformed"/>
+        <EventHandler event="keyTyped" listener="java.awt.event.KeyListener" parameters="java.awt.event.KeyEvent" handler="TXTAPELLIDOKeyTyped"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JTextField" name="TXTDIRECCION">
+      <Events>
+        <EventHandler event="keyTyped" listener="java.awt.event.KeyListener" parameters="java.awt.event.KeyEvent" handler="TXTDIRECCIONKeyTyped"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JTextField" name="TXTTELEFONO">
+      <Events>
+        <EventHandler event="keyTyped" listener="java.awt.event.KeyListener" parameters="java.awt.event.KeyEvent" handler="TXTTELEFONOKeyTyped"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="BTNSALIR">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="SALIR"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="BTNSALIRActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="BTNGRABAR">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="GRABAR"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="BTNGRABARActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel1">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Tahoma" size="24" style="0"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="FORMULARIO DE ACTUALIZAR DE CLIENTES "/>
+      </Properties>
+    </Component>
+  </SubComponents>
+</Form>
